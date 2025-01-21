@@ -212,7 +212,7 @@ jobs:
       matrix:
         docker-version:
           - '27.5.0-1~ubuntu.24.04~noble'
-          - '27.4.1-1~ubuntu.24.04~noble'
+          - '26.1.4-1~ubuntu.24.04~noble'
           - '26.0.0-1~ubuntu.24.04~noble'
     steps:
       - name: Uninstall pre-installed Docker
